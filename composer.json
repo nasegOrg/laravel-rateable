@@ -1,5 +1,5 @@
 {
-    "name": "willvincent/laravel-rateable",
+    "name": "naseg/rateable",
     "description": "Allows multiple models to be rated with a fivestar like system.",
     "keywords": [
         "laravel",
@@ -10,13 +10,13 @@
         "laravel 8",
         "laravel 9"
     ],
-    "homepage": "https://github.com/willvincent/laravel-rateable",
+    "homepage": "https://naseg.org",
     "license": "MIT",
     "authors": [
         {
-            "name": "Will Vincent",
-            "email": "tcindie@gmail.com",
-            "homepage": "https://willvincent.com"
+            "name": "Naseg",
+            "email": "info@nnaseg.com",
+            "homepage": "https://naseg.org"
         }
     ],
     "require": {
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "willvincent\\Rateable\\": "src"
+            "Naseg\\Rateable\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "willvincent\\Rateable\\Tests\\": "tests"
+            "Naseg\\Rateable\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "willvincent\\Rateable\\RateableServiceProvider"
+                "Naseg\\Rateable\\RateableServiceProvider"
             ]
         }
     },

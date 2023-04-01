@@ -1,9 +1,9 @@
 <?php
 
-namespace willvincent\Rateable;
+namespace Naseg\Rateable;
 
 use Illuminate\Support\ServiceProvider;
-use willvincent\Rateable\Commands\RateableCommand;
+use Naseg\Rateable\Commands\RateableCommand;
 
 class RateableServiceProvider extends ServiceProvider
 {
